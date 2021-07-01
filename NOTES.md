@@ -1,0 +1,11 @@
+# API Precios diarios
+- <ins>Web</ins>: https://www.esios.ree.es/es/pvpc
+- <ins>Link</ins>: https://api.esios.ree.es/archives/70/download_json?locale=es&date=2021-06-22
+- <ins>Tipo</ins>: GET
+- <ins>Parametros devueltos</ins>:
+    - Json con nodo padre "PVPC"
+    - Arreglo con datos de los precios de la electricidad
+        - "Dia" -> formato dd/mm/yyyy
+        - "Hora" -> rango de horas, ejemplo "01-02" (de 1 a 2)
+        - "PCB" -> Precio PENÍNSULA, BALEARES Y CANARIAS (PEAJE 2.0 TD)
+        - "CYM" -> Precio CEUTA Y MELILLA (PEAJE 2.0 TD)
